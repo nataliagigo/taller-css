@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    margin: 0;
+}
+
+.menu-vertical {
+    background-color: #e0e0e0;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 5px solid #f8f4f4;
+}
+
+.menu-item span {
+    font-weight: bold;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: rgb(7, 6, 6);
+    background-color: #f1eded;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+

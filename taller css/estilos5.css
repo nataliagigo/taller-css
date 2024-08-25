@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+nav, aside {
+    background-color: #ccc;
+    padding: 20px;
+    width: 20%;
+}
+
+article {
+    background-color: #8f8c8cce;
+    padding: 20px;
+    width: 60%;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
